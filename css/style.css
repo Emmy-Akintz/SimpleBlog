@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    background: #485487;
+    padding: 50px 100px;
+}
+
+/* .nav1 */
+.nav1 {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav1 .left {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav1 .right {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.nav1 .left li a,
+.nav1 .right li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav1 .left li a:hover,
+.nav1 .right li a:hover {
+    text-decoration: overline;
+    color: rgb(223, 223, 223);
+}
+
+/* section1 */
+.section1 {
+    margin: 100px auto;
+    width: 1000;
+    text-align: center;
+}
+
+.section1 .image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .header1 {
+    color: rgb(255, 0, 85);
+}
+
+.section1 .body {
+    color: white;
+}
+
+/* section2 */
+.section2 {
+    margin: 100px auto;
+    width: 1000;
+    text-align: center;
+}
+
+.section2 .nav2 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.section2 .nav2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section2 .nav2 li a:hover {
+    color: rgb(223, 223, 223);
+
+}
+
+.section2 .cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.section2 .card {
+    width: 300px;
+    background: wheat;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section2 .cards .image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section2 .nav3 {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.section2 .nav3 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section2 .nav3 li a:hover {
+    text-decoration: overline;
+    color: rgb(255, 0, 85);
+    font: bold;
+}
+
+.section2 .nav3 li .special {
+    text-decoration: overline;
+    color: rgb(255, 0, 85);
+    font: bold;
+}
+
+/* footer */
+footer .bottom_nav {
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .bottom_nav .right {
+    background-color: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .bottom_nav .left span {
+    background-color: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .bottom_nav .left {
+    cursor: pointer;
+}
